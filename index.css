@@ -1,0 +1,17 @@
+:root{
+    --title-h1-title:56px;
+    --title-h2-title:44px;
+    --title-h3-title:32px;
+    --parragraph-text:20px;
+    --pupple-color:blueviolet;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
