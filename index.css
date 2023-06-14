@@ -26,4 +26,15 @@ li{
 }
 nav{
     display: flex;
+    justify-content: space-between;
+    background-color:antiquewhite;
+    width: 100%;
+}
+.left{
+    margin-left: 30px;
+    font-size: var(--parragraph-text);
+    color: var(--pupple-color);
+    font-weight: bold;
+    padding: 4px;
+
 }
