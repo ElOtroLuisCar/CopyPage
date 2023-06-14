@@ -17,7 +17,7 @@ body{
 }
 ul{
     margin:0;
-    padding: 10px;
+    padding: 14px;
     
 }
 li{
@@ -41,12 +41,10 @@ nav{
 }
 .left{
     margin-left: 30px;
-    padding: 10px;
+    padding: 14px;
     font-size: var(--parragraph-text);
     color: var(--pupple-color);
     font-weight: bold;
-    
-
 }
 .rigth{
     display: flex;
@@ -60,6 +58,10 @@ nav{
 .rigth ul li{
     margin-right: 20px;
     font-weight: bold;
+}
+.rigth ul li a{
+    text-decoration: none;
+    color: black;
 }
 .rigth ul li:nth-child(3){
     margin-right: 0;
