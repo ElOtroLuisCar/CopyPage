@@ -108,34 +108,20 @@ nav{
     font-weight: bold;
 }
 #middle{
-   display: flex;
-   justify-content: space-around;
-   
-}
-
-#middle div img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover ;
-    margin-right: 30px;
+    display: flex;
 }
 .somosWoman{
-    display: flex;
-    margin: 20px 40px 20px 40px;
-    padding: 20px;
-    align-items: center;
+    padding: 150px;
     
 }
-
-.middle-text{
-    margin: 50px;
-    
+.imagen{
+    background-image:url(/assets/pexels-mizuno-k-12899158.jpg);
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
 
-.second-title{
-    font-size: var(--title-h2-title);
-}
-.second-title span{
-    color: purple;
-}
+
+
 
