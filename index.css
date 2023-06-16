@@ -154,10 +154,16 @@ nav{
     background-color: gray;
     height: 90vh;
     padding: 200px 12px;
+    
 }
 .container-programas{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    width: 100%;
+}
+.container-programas h3{
+    font-size: var(--title-h2-title);
+    color: white;
 }
