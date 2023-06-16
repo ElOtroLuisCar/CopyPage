@@ -178,8 +178,23 @@ nav{
     border-radius: 12px;
     width: 340px;
 }
+.columna h4{
+    font-size: var(--title-h3-title);
+    color: white;
+}
 .columna p{
     margin: 0px 32px;
     text-align: justify;
     font-size: 24px;
+}
+.columna button{
+    width: 100px;
+    height: 30px;
+    margin: 18px 0;
+    background-color: var(--pupple-color);
+    border: none;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
 }
