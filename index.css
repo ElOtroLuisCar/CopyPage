@@ -170,7 +170,16 @@ nav{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
+    justify-items: center;
+    
 }
 .columna{
-   width: 340px;
+    background: blue;
+    border-radius: 12px;
+    width: 340px;
+}
+.columna p{
+    margin: 0px 32px;
+    text-align: justify;
+    font-size: 24px;
 }
