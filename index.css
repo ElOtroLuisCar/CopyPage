@@ -152,18 +152,25 @@ nav{
 
 #nuestros-programas{
     background-color: gray;
-    height: 90vh;
-    padding: 200px 12px;
     
 }
 .container-programas{
+    padding: 200px 12px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
-    width: 100%;
+    justify-content: center;
+   
 }
 .container-programas h3{
     font-size: var(--title-h2-title);
     color: white;
+}
+.container-carreras{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.columna{
+   width: 340px;
 }
