@@ -226,4 +226,7 @@ nav{
 .columna button:hover{
     background-color: var(--pupple-color);
 }
+.caracteristicas{
+    text-align: center;
+}
 
