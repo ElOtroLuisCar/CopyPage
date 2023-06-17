@@ -269,3 +269,14 @@ nav{
     font-size: 20px;
     font-weight: bold;
 }
+.derechos{
+    height: 100px;
+    display: flex;
+    justify-content:end;
+    align-items: end;
+    background-color: #f1f1f1;
+}
+.derechos p{
+    color:#222222;
+    margin-right: 10px
+}
