@@ -12,12 +12,12 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+    /* overflow-x: hidden; */
     font-family: 'Roboto', sans-serif;
 }
 ul{
-    margin:0;
-    padding: 14px;
+    margin-right: 30px;
+    padding: 0;
     
 }
 li{
@@ -32,8 +32,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: #f5f5f5;
-    width: 100%;
-    
+    width: 100vw;
     box-shadow: 0px 2px 4px rgba(0,0,0, 0.2);
     margin-bottom: 0;
     overflow-x: hidden;
@@ -41,31 +40,30 @@ nav{
 }
 .left{
     margin-left: 30px;
-    padding: 14px;
+    /* padding: 14px; */
     font-size: var(--parragraph-text);
     color: var(--pupple-color);
     font-weight: bold;
 }
 .rigth{
     display: flex;
-    margin-right: 30px;
+    /* margin-right: 30px; */
 }
 .rigth ul{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.rigth ul li{
-    margin-right: 20px;
-    font-weight: bold;
-}
 .rigth ul li a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    margin-right: 14px;
 }
 .rigth ul li:nth-child(3){
     margin-right: 0;
 }
+/*
 #hero{
     width: 100%;
     display: flex;
@@ -198,3 +196,4 @@ nav{
     font-weight: bold;
     color: white;
 }
+*/
