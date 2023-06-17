@@ -229,4 +229,11 @@ nav{
 .caracteristicas{
     text-align: center;
 }
-
+.caracteristicas ul li{
+    margin-top: 20px;
+}
+.contenedor{
+    margin: 40px 0;
+    padding: 20px;
+    font-weight: bold;
+}
